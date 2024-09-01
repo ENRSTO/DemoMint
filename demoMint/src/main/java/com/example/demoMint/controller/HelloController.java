@@ -26,6 +26,6 @@ public class HelloController {
 	        String message = "Ciao, " + name + "!";
 	        model.addAttribute("message", message);
 	        return "greeting";
-	 }
+	 } // greet
 
 }
