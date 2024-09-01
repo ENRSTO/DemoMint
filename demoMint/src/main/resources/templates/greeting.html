@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Greeting form</title>
+</head>
+<body>
+  <h1>Inserisci il tuo nome</h1>
+    <form action="#" th:action="@{/greet}" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Saluta</button>
+    </form>
+
+    <div th:if="${message}">
+        <h2 th:text="${message}"></h2>
+    </div>
+
+</body>
+</html>
