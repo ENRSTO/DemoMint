@@ -25,7 +25,6 @@ public class PersonaController {
 		return personaService.addPersona(persona);
 	}
 
-
     @GetMapping
     public List<Persona> getPersone() {
         return personaService.getAllPersone();

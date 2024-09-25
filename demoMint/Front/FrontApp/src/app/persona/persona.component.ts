@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms'; // Importa FormsModule
 import { CommonModule } from '@angular/common'; // Importa CommonModule
 import { HttpClientModule } from '@angular/common/http'; // Importa HttpClientModule
 import { Persona } from './Persona';
-import { provideHttpClient, withFetch } from '@angular/common/http'; 
+
 
 @Component({
   selector: 'app-persona',

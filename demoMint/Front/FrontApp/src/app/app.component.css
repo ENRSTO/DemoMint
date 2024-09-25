@@ -1,0 +1,20 @@
+ /* Toolbar */
+.toolbar {
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+    border: 15%;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+  /* Stile del testo della toolbar */
+.toolbar h1 {
+  margin: 0;
+  font-size: 2em;  /* Dimensione del font */
+  font-family: 'Helvetica', sans-serif;  /* Font della toolbar */
+  font-weight: normal;  /* Peso del font */
+}
