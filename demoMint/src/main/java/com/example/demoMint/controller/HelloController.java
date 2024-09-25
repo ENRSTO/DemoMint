@@ -27,5 +27,13 @@ public class HelloController {
 	        model.addAttribute("message", message);
 	        return "greeting";
 	 } // greet
+	 
+
+	 @PostMapping("/greet2")
+	 public String greetWithSurname(@RequestParam("name") String name, @RequestParam("surname") String surname ,Model model) {
+	        String message = "Ciao, " + name + " " + surname +"!";
+	        model.addAttribute("message", message);
+	        return "greeting";
+	 } // greet
 
 }

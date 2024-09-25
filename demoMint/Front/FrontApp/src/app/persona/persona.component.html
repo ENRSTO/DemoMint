@@ -1,0 +1,19 @@
+
+<div class="form-container">
+  <div class="form-group">
+    <label for="nome">Nome:</label>
+    <input id="nome" [(ngModel)]="nome" placeholder="Inserisci il nome" />
+  </div>
+  <div class="form-group">
+    <label for="cognome">Cognome:</label>
+    <input id="cognome" [(ngModel)]="cognome" placeholder="Inserisci il cognome" />
+  </div>
+  <button class="btn" (click)="aggiungiPersona()">Aggiungi Persona</button>
+</div>
+
+<h2>Lista delle Persone</h2>  
+<ul class="persona-list">
+  <li *ngFor="let persona of persone">
+    {{ persona.nome }} {{ persona.cognome }}
+  </li>
+</ul>
