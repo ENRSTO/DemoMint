@@ -23,11 +23,11 @@ public class PersonaController {
 	@PostMapping
 	public Persona addPersona(@RequestBody Persona persona) {
 		return personaService.addPersona(persona);
-	}
+	} // addPersona
 
     @GetMapping
     public List<Persona> getPersone() {
         return personaService.getAllPersone();
-    }
+    } // getPersone
 
 }
