@@ -14,11 +14,11 @@ public class PersonaService {
 
 	public List<Persona> getAllPersone() {
 		return persone;
-	}
+	} // getAllPersone
 
 	public Persona addPersona(Persona persona) {
 		persone.add(persona);
 		return persona;
-	}
+	} // addPersona
 
-}
+} // PersonaService
