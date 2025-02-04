@@ -20,5 +20,9 @@ public class PersonaService {
 		persone.add(persona);
 		return persona;
 	} // addPersona
+	
+	public String testMethod () {
+		return "";
+	} // testMethod
 
 } // PersonaService
