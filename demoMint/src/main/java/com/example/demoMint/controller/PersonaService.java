@@ -24,5 +24,10 @@ public class PersonaService {
 	public String testMethod () {
 		return "";
 	} // testMethod
+	
+	public String testMethod2 () {
+		return "";
+	} // testMethod
+	
 
 } // PersonaService
