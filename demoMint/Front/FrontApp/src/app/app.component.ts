@@ -13,5 +13,5 @@ import { FormsModule } from '@angular/forms'; // Importa FormsModule
 
 })
 export class AppComponent {
-  title = 'FrontApp+Spring';
+  title = 'Spring';
 }

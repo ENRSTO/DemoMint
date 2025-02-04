@@ -21,6 +21,11 @@ public class PersonaController {
 	private PersonaService personaService;
 
 	@PostMapping
+	/**
+	 * 
+	 * @param persona
+	 * @return oggetto persna da restituire per il subscribe TS
+	 */
 	public Persona addPersona(@RequestBody Persona persona) {
 		return personaService.addPersona(persona);
 	} // addPersona
