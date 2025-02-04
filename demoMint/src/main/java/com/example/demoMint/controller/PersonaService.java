@@ -20,5 +20,19 @@ public class PersonaService {
 		persone.add(persona);
 		return persona;
 	} // addPersona
+	
+
+	public Boolean testBool (Persona mod) {
+		 return true;
+	} // testBool
+
+	public String testMethod () {
+		return "";
+	} // testMethod
+	
+	public String testMethod2 () {
+		return "";
+	} // testMethod
+	
 
 } // PersonaService
