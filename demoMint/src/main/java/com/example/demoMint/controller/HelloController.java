@@ -33,6 +33,7 @@ public class HelloController {
 	 public String greetWithSurname(@RequestParam("name") String name, @RequestParam("surname") String surname ,Model model) {
 	        String message = "Ciao, " + name + " " + surname +"!";
 	        model.addAttribute("message", message);
+	        model.addAttribute("message2", message);
 	        return "greeting";
 	 } // greet
 
